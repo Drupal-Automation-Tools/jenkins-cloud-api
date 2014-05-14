@@ -7,8 +7,8 @@
   </parent>
 
   <groupId>com.acquia</groupId>
-  <artifactId>mavenproject1</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>acquiaapiplugin</artifactId>
+  <version>1.0-alpha</version>
   <packaging>hpi</packaging>
 
   <!-- get every artifact through repo.jenkins-ci.org, which proxies all the artifacts that we need -->
@@ -58,4 +58,5 @@
             <version>4.1.2</version>
         </dependency>
     </dependencies>
+    <name>acquiaapiplugin</name>
 </project>
